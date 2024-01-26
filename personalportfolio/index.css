@@ -76,3 +76,161 @@ h4{
 #htp:hover{
     color: hotpink;
 }
+
+
+
+#about{
+    background-color: pink;
+    color: black;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#am{
+    color: black;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+     
+}
+
+p{
+    color: black;
+    font-weight: 400;
+    width: 600px;
+    font-size: 18px;
+} 
+#name{
+    font-size: large;
+    color: purple;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#story{
+    margin-right: 100px;
+    border:  2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 500px; 
+    justify-content: space-between;
+}
+
+#wwo{
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    text-transform: uppercase;
+}
+
+
+#wdm , #lf{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+}
+
+#lists{
+   font: size 36px;
+   font-weight: 900;
+   width: 400px;
+   border: 1px solid;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 30px;
+   background-color: antiquewhite;
+}
+
+#services{
+    background-color: beige;
+    color: black;
+    height: 800px; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+#skills{
+    background-color: yellow;
+    height: 500px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skl{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pskl{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+#contacts{
+    background-color: blanchedalmond;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+#class{
+    display: flex;
+}
+
+.fa-landmark, .fa-message, .fa-phone{
+    margin:20px 80px;
+    color: black;
+}
+
+.fa:hover{
+    color: aqua;
+}
+
+#a23{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center ;
+}
