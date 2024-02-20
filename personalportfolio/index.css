@@ -9,6 +9,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 #navbar1{
     padding-right: 30px;
@@ -85,6 +87,7 @@ h4{
     height: 800px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -170,8 +173,7 @@ p{
 
 
 #skills{
-    background-color: yellow;
-    height: 500px;
+    background-color:blanchedalmond;
     color: black;
     display: flex;
     flex-direction: column;
@@ -233,4 +235,45 @@ p{
     width: 200px;
     justify-content: center;
     align-items: center ;
+}
+
+#foot{
+    background-color: blue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+@media only screen and (max-width:420px){
+    #sch{
+        display: none;
+    }
+    #navbar1{
+        display: flex;
+
+    }
+
+    
+    #bdy{
+        height: 100vh;
+        width: 50wh;
+        padding: 0;
+    }
+    #story{
+        height: 500px;
+        max-width: 380px;
+        padding: 0; 
+        
+    }
+
+    #np{
+       word-break: break-all;
+    }
 }
