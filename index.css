@@ -96,12 +96,8 @@ body{
     color: black;
 }
 #about{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 8rem;
-  padding: 1rem;
+    text-align: center;
+    padding: 20px;
 }
 
 #works{
@@ -132,19 +128,23 @@ body{
 
 }
 
-#about1{
-    display: flex;
-    flex-direction: column;
-}
+.aboutstory {
+    margin-top: 20px; 
+  }
+  
+  .aboutstory h1 {
+    font-size: 24px; 
+    color: black;
+  }
 
-#about h1{
-    text-align: center;
-}
-#about p{
+
+
+  .aboutstory p {
     padding: 0.5rem;
     margin: 0 auto;
     max-width: 700px;
-}
+    
+  }
 
 #footer{
     display: flex;
